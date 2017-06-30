@@ -11,7 +11,7 @@
     "*.md",
     "dist",
     "lib",
-    "src/stylesheets"
+    "src"
   ],
   "keywords": [
     "react",
