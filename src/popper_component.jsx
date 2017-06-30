@@ -55,7 +55,8 @@ export default class PopperComponent extends React.Component {
     return (
       <Manager>
         <Target
-            style={{display: 'inline-block'}}>
+            // style={{display: 'inline-block'}}
+            >
           {targetComponent}
         </Target>
         {
