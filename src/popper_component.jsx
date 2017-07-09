@@ -56,13 +56,14 @@ export default class PopperComponent extends React.Component {
       <Manager>
         <Target
             // style={{display: 'inline-block'}}
+            style={{display: 'block'}}
             >
           {targetComponent}
         </Target>
         {
           !hidePopper &&
           <Popper
-              style={{zIndex: 1}}
+              style={{zIndex: 1, minWidth: '209px'}}
               modifiers={popperModifiers}
               placement={popperPlacement}
               className="popper">
