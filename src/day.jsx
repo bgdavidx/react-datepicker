@@ -156,7 +156,7 @@ export default class Day extends React.Component {
     return classnames('react-datepicker__day', dayClassName, {
       'react-datepicker__day--disabled': this.isDisabled(),
       'react-datepicker__day--selected': this.isSameDay(this.props.selected),
-      'react-datepicker__day--keyboard-selected': this.isKeyboardSelected(),
+      'react-datepicker__day--keyboard-selected': this.isKeyboardSelected() && this.isInRange(),
       'react-datepicker__day--range-start': this.isRangeStart(),
       'react-datepicker__day--range-end': this.isRangeEnd(),
       'react-datepicker__day--in-range': this.isInRange(),
