@@ -163,7 +163,7 @@ export default class Day extends React.Component {
       'react-datepicker__day--in-selecting-range': this.isInSelectingRange(),
       'react-datepicker__day--selecting-range-start': this.isSelectingRangeStart(),
       'react-datepicker__day--selecting-range-end': this.isSelectingRangeEnd(),
-      'react-datepicker__day--today': this.isSameDay(moment.utc().utcOffset(this.props.utcOffset)),
+      // 'react-datepicker__day--today': this.isSameDay(moment.utc().utcOffset(this.props.utcOffset)),
       'react-datepicker__day--weekend': this.isWeekend(),
       'react-datepicker__day--outside-month': this.isOutsideMonth()
     }, this.getHighLightedClass('react-datepicker__day--highlighted'))
