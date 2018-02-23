@@ -167,6 +167,10 @@
   &--today {
     font-weight: bold;
   }
+  &.react-datepicker__day--today.react-datepicker__day--keyboard-selected {
+    color: black;
+    background-color: white;
+  }
 
   &--highlighted {
     border-radius: $datepicker__border-radius;
