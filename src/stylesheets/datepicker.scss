@@ -53,7 +53,7 @@
   border-bottom: 1px solid $datepicker__border-color;
   border-top-left-radius: $datepicker__border-radius;
   border-top-right-radius: $datepicker__border-radius;
-  padding-top: 8px;
+  padding-top: 12px;
   position: relative;
 }
 
@@ -83,7 +83,7 @@
   z-index: 1;
 
   &--previous {
-    left: 10px;
+    left: 3px;
     border-right-color: $datepicker__muted-color;
 
     &:hover {
@@ -92,7 +92,7 @@
   }
 
   &--next {
-    right: 10px;
+    right: 3px;
     border-left-color: $datepicker__muted-color;
 
     &:hover {
