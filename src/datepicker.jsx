@@ -137,6 +137,10 @@ export default class DatePicker extends React.Component {
     this.refs.input.focus()
   }
 
+  setBlur = () => {
+    this.refs.input.blur()
+  }
+
   setOpen = (open) => {
     this.setState({
       open: open,
