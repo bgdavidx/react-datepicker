@@ -1,5 +1,5 @@
 import React from 'react'
-import DatePicker from 'react-datepicker'
+import DatePicker from '../../src/datepicker.jsx'
 import moment from 'moment'
 
 export default class HeroExample extends React.Component {
