@@ -2,6 +2,7 @@
 
 var _ = require('lodash')
 var webpack = require('webpack')
+const sass = require('node-sass')
 
 var mergeWebpackConfig = function (config) {
   // Load webpackConfig only when using `grunt:webpack`
@@ -24,6 +25,7 @@ module.exports = function (grunt) {
           'dist/react-datepicker-cssmodules.css': 'src/stylesheets/datepicker-cssmodules.scss'
         },
         options: {
+          implementation: sass,
           sourcemap: 'none',
           style: 'expanded'
         }
@@ -34,6 +36,7 @@ module.exports = function (grunt) {
           'dist/react-datepicker-cssmodules.min.css': 'src/stylesheets/datepicker-cssmodules.scss'
         },
         options: {
+          implementation: sass,
           sourcemap: 'none',
           style: 'compressed'
         }
@@ -116,7 +119,7 @@ module.exports = function (grunt) {
           }]
         }
       }),
-      docs: require('./webpack.docs.config')
+      // docs: require('./webpack.docs.config')
     },
 
     // source build for ./lib
