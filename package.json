@@ -9,8 +9,20 @@
   "module": "es",
   "unpkg": "dist/react-datepicker.min.js",
   "style": "dist/react-datepicker.min.css",
-  "files": ["*.md", "dist", "lib", "es", "src"],
-  "keywords": ["react", "datepicker", "calendar", "date", "react-component"],
+  "files": [
+    "*.md",
+    "dist",
+    "lib",
+    "es",
+    "src"
+  ],
+  "keywords": [
+    "react",
+    "datepicker",
+    "calendar",
+    "date",
+    "react-component"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/Hacker0x01/react-datepicker.git"
@@ -59,7 +71,7 @@
     "lodash": "^4.17.4",
     "mocha": "^4.0.1",
     "moment": "^2.20.1",
-    "node-sass": "^4.6.0",
+    "node-sass": "^6.0.0",
     "npm-run-all": "^4.1.2",
     "prettier": "^1.9.2",
     "react": "^16.1.0",
@@ -74,7 +86,7 @@
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-uglify": "^2.0.1",
     "sass-lint": "^1.12.1",
-    "sass-loader": "^4.1.1",
+    "sass-loader": "^12.0.0",
     "sinon": "^4.1.2",
     "style-loader": "^0.19.0",
     "webpack": "^1.13.0",
@@ -94,6 +106,9 @@
     "react-popper": "^0.8.2"
   },
   "lint-staged": {
-    "*.{js,json,css,scss,md}": ["prettier --write", "git add"]
+    "*.{js,json,css,scss,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
